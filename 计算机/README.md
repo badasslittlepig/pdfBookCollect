@@ -16,7 +16,7 @@
 	  cd docker-contain-service
 	  docker-compose up -d couchdb
 	  docker ps -a
-	  ![GitHub Logo](/images/logo.png)
+	  ![GitHub Logo](https://git.wowkai.cn/openplatform/docker-contain-service/blob/master/image/docker_couchdb_start.png)
 	  Format: ![Alt Text](https://git.wowkai.cn/openplatform/docker-contain-service/blob/master/image/docker_couchdb_start.png)
 	
 	dokcer logs containerID 查看是否有报错信息
