@@ -6,7 +6,7 @@
 #一、环境需求
 	git、docker
 	  yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-	  yum -y install git socat openssh-server openssh-clients nc elinks links yum-utils device-mapper-persistent-data lvm2 docker-ce python epel-release python-pip 
+	  yum -y install git socat openssh-server openssh-clients nc elinks links yum-utils device-mapper-persistent-data lvm2 docker-ce python epel-release python-pip
 	  yum update -y
 	  pip install docker-compose
 	  systemctl start docker
@@ -16,7 +16,8 @@
 	  cd docker-contain-service
 	  docker-compose up -d couchdb
 	  docker ps -a
-	![coudb启动图](https://git.wowkai.cn/openplatform/docker-contain-service/blob/master/image/docker_couchdb_start.png "coudb启动图")
+	  ![GitHub Logo](/images/logo.png)
+	  Format: ![Alt Text](https://git.wowkai.cn/openplatform/docker-contain-service/blob/master/image/docker_couchdb_start.png)
 	
 	dokcer logs containerID 查看是否有报错信息
 	
